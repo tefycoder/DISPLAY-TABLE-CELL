@@ -15,4 +15,42 @@ body {
     background: #ffffff;
 }
 
+nav li {
+    display: block;
+}
+
+
+nav li a span {
+    width: 100px;
+    height: 100px;
+    background-color: #2F4F4F;
+    display: table;
+    padding-left: 100px;
+
+     }
+
+nav li a {
+    display: table;
+    vertical-align: middle;
+    opacity: 1;
+    transition: all 0.3;
+    text-transform: uppercase;
+}
+
+navi li a:hover span {    
+    opacity: 1;
+    
+ }
+nav li a:hover {
+    padding-left: 60px;
+}
+
+
+nav li:nth-child(1) a{background: #87CEFA; color:#87CEFA  }
+nav li:nth-child(2) a{background: #00FA9A; color:#00FA9A }
+nav li:nth-child(3) a{background: #FF7F50; color:#FF7F50 }
+nav li:nth-child(4) a{background: #DB7093; color:#DB7093 }
+
+    
+}
 /* completa tu codigo aqui */
