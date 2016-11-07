@@ -35,6 +35,7 @@ nav li a {
     opacity: 1;
     transition: all 0.3;
     text-transform: uppercase;
+    text-decoration:none;
 }
 
 navi li a:hover span {    
